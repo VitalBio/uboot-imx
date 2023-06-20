@@ -339,6 +339,14 @@ config TARGET_IOT_GATE_IMX8PLUS
 	select IMX8M_LPDDR4
 	select SUPPORT_EXTENSION_SCAN
 
+config TARGET_CEREBRO
+	bool "Vital Cerebro"
+	select BINMAN
+	select IMX8MP
+	select SUPPORT_SPL
+	select IMX8M_LPDDR4
+	select SUPPORT_EXTENSION_SCAN
+
 endchoice
 
 source "board/advantech/imx8mp_rsb3720a1/Kconfig"
@@ -370,5 +378,6 @@ source "board/compulab/ucm-imx8m-plus/Kconfig"
 source "board/compulab/som-imx8m-plus/Kconfig"
 source "board/compulab/iot-gate-imx8plus/Kconfig"
 source "board/compulab/plat/imx8mp/Kconfig"
+source "board/vital/cerebro/Kconfig"
 
 endif

@@ -1011,6 +1011,7 @@ dtb-$(CONFIG_TARGET_IOT_GATE_IMX8) += iot-gate-imx8.dtb
 dtb-$(CONFIG_TARGET_UCM_IMX8M_PLUS) += ucm-imx8m-plus.dtb
 dtb-$(CONFIG_TARGET_SOM_IMX8M_PLUS) += som-imx8m-plus.dtb
 dtb-$(CONFIG_TARGET_IOT_GATE_IMX8PLUS) += iot-gate-imx8plus.dtb
+dtb-$(CONFIG_TARGET_CEREBRO) += cerebro.dtb
 
 dtb-$(CONFIG_ARCH_IMX9) += \
 	imx93-11x11-evk.dtb \

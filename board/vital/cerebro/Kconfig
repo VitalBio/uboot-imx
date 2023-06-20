@@ -1,0 +1,29 @@
+if TARGET_CEREBRO
+
+config SYS_BOARD
+	default "cerebro"
+
+config SYS_VENDOR
+	default "vital"
+
+config SYS_CONFIG_NAME
+	default "cerebro"
+
+config DEFAULT_DTB
+	default "cerebro.dtb"
+
+config DEFAULT_FDT_FILE
+	default "cerebro.dtb"
+
+config DEFAULT_DEVICE_TREE
+	default "cerebro"
+
+config SYS_I2C_EEPROM_BUS
+	int "SOM eeprom bus address"
+	default 1
+
+config SYS_I2C_EEPROM_ADDR
+	hex "SOM eeprom dev address"
+	default 0x50
+
+endif
